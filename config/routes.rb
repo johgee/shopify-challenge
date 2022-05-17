@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   post "/items" => "items#create"
   get "items/:id" => "items#show"
   patch "items/:id" => "items#update"
-  delete "/items/:id" => "items#destroy"
+  post "/delete-items/:id" => "items#destroy"
 end

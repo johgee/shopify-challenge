@@ -16,15 +16,15 @@ Content-Type: application/json
 GET http://localhost:3000/items/1.json 
 
 ### Items Update 
-PATCH http://localhost:3000/items/9.json 
+PATCH http://localhost:3000/items/12.json 
 Content-Type: application/json 
 
 {
-  "deleted_at": null
+  "delete_comment": null
 }
 
 ### Items Destroy
-POST http://localhost:3000/delete-items/9.json 
+POST http://localhost:3000/delete-items/12.json 
 Content-Type: application/json 
 
 {

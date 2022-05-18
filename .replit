@@ -1,2 +1,7 @@
 run="bin/rails server -b 0.0.0.0"
 entrypoint="app/controllers/application_controller.rb"
+[packager]
+language = "ruby"
+
+[languages.ruby]
+pattern = "**/*.rb"

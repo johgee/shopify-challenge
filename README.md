@@ -1,24 +1,20 @@
-# README
+# Shopify Technical Challenge Submission
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- This app allows users to create, edit, delete and view items.
+- Users can also delete and undelete a specific item.
 
-Things you may want to cover:
+## Dependencies
 
-* Ruby version
+Rails 7.0.2.3
 
-* System dependencies
+## Installation
 
-* Configuration
+Clone the repo:
 
-* Database creation
+```
+git clone https://github.com/johgee/shopify-challenge.git
+```
 
-* Database initialization
+# Run locally:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`rails server`
